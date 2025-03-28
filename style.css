@@ -1,0 +1,32 @@
+/*sidebar*/
+.sidebar{
+    top: auto;
+    margin: 0px;
+    background-color: #028391;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+a.sidebarlinks{
+    margin:2em;
+    font-size: 30px;
+    color:#FEAE6F;
+}
+
+/*Texto*/
+
+img.photo1{
+    height: 400px;
+    width: auto;
+}
+div.alinhamento{
+    text-align: right;
+    margin-left: 100px;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+.começo{
+    color: white;
+}
