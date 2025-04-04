@@ -167,3 +167,50 @@ footer{
     text-align: center;
     font-size: 20px;
 }
+
+@media screen and (max-width:1020px){
+ 
+    /*navbar*/
+    .links a{
+        font-size: 25px;
+        margin-right:20px;
+    }
+        
+    .links {
+    display:table-column;
+    justify-content: space-around;
+    }
+
+    /*Frente*/
+
+    .introduction img{
+        height: 150px;
+        width: auto;
+    }
+    .introduction h2{
+        font-size: 30px;
+    }
+
+    /*sobre*/
+    .sobre p{
+        margin-left: 100px;
+        display: contents;
+    }
+
+    /*Projetos*/
+   .projeto{
+    display:contents;
+   }
+   .pimg{
+    display: flex;
+    width: 100%;
+    margin-left:0px;
+   }
+   .pimg img{
+    height: 200px;
+    width:auto;
+   }
+    
+    
+ 
+}
